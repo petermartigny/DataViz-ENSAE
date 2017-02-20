@@ -1,0 +1,48 @@
+header {
+  text-align: center;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Olympic_rings_with_transparent_rims.svg/2000px-Olympic_rings_with_transparent_rims.svg.png');
+  background-size: cover;
+  color: white;
+}
+a {
+  color: black;
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  color: black;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid black;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}

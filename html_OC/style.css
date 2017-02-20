@@ -1,0 +1,80 @@
+/* 
+style.css is the file that contains all CSS code
+*/
+
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('OpenType_TrueType/learning_curve_dashed_ot_tt.ttf');
+}
+
+p
+{
+	color: blue;
+	font-size: small;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+}
+h1
+{
+	color: rgb(15, 100, 10);
+	font-size: 4em;
+	font-family: "MaSuperPolice", Verdana;
+	font-weight: bold;
+	text-align: center;
+	border: 3px green outset;
+	border-radius: 10px;
+}
+h2
+{
+	font-size: large;
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+}
+ul
+{
+	color: green;
+	font-size: 2em;
+	font-family: "MaSuperPolice", Verdana;
+	font-weight: bold;
+}
+
+/* CSS for the manually-vreated class "official"*/
+.official
+{
+	color: green;
+}
+
+body
+{
+	background-color: rgb(184, 247, 254);
+	background-image: url('images/bg_2.jpg');
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: red;
+}
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: green;
+}
+
+
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
+
+section
+{
+    margin-left: 170px;
+    border: 1px solid blue;
+}
